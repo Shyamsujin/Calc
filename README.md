@@ -1,5 +1,5 @@
 # Ex.08 Design of a Standard Calculator
-## Date:13.12.2023
+## Date:20.12.2023
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
@@ -131,12 +131,16 @@ calc.html
             body {
                 background-color: rgb(247, 240, 240);
             }
+            h2 {
+                color:greenyellow;
+            }
         </style>
 
     </head>
 <body>
     <div class="calculator-container">
-        <h1>CALCULATOR</h1>
+        <h1>SHYAM SUJIN U</h1>
+        <h2>REGISTER NO.:212223040201</h2>
         <div id="result">0</div>
         <button onclick="calculate(event);">7</button>
         <button onclick="calculate(event);">8</button>
@@ -147,7 +151,7 @@ calc.html
         <button onclick="calculate(event);">5</button>
         <button onclick="calculate(event);">6</button>
         <button class="bluee"  onclick="calculate(event);">*</button>
-        <button class="bluee"  onclick="calculate(event);">√ </button><br>
+        <button class="bluee"  onclick="calculate(event);">&radic; </button><br>
         <button onclick="calculate(event);">1</button>
         <button onclick="calculate(event);">2</button>
         <button onclick="calculate(event);">3</button>
@@ -163,7 +167,10 @@ calc.html
 </html>
 ```
 ## OUTPUT:
-  ![Alt text](<Screenshot (49).png>)
+  
+![Alt text](<Screenshot (51).png>)
+
+![Alt text](<Screenshot (52).png>)
 
 
 ## RESULT:
